@@ -1,0 +1,73 @@
+<svg 
+  viewBox="0 0 760 300" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="100%"
+  height="100%"
+>
+  <!-- 1. Isotype (Left) - Perfectly symmetrical, hollow rings, clean geometry -->
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Branch -->
+    <path d="M120,40 L30,105 L30,195 L120,260" />
+    <circle cx="120" cy="40" r="14" stroke="#ffffff" stroke-width="12" fill="none" />
+    <circle cx="120" cy="260" r="14" stroke="#ffffff" stroke-width="12" fill="none" />
+    
+    <!-- Left Ticks -->
+    <line x1="80" y1="95" x2="62" y2="108" stroke-width="8" />
+    <line x1="62" y1="192" x2="80" y2="205" stroke-width="8" />
+    
+    <!-- Inner Left Bracket < -->
+    <path d="M100,150 L130,120 M100,150 L130,180" stroke-width="10" />
+    
+    <!-- Slash / -->
+    <line x1="160" y1="100" x2="140" y2="200" stroke-width="11" />
+    
+    <!-- Inner Right Bracket > -->
+    <path d="M200,150 L170,120 M200,150 L170,180" stroke-width="10" />
+    
+    <!-- Right Branch -->
+    <path d="M180,40 L270,105 L270,195 L180,260" />
+    <circle cx="180" cy="40" r="14" stroke="#ffffff" stroke-width="12" fill="none" />
+    <circle cx="180" cy="260" r="14" stroke="#ffffff" stroke-width="12" fill="none" />
+    
+    <!-- Right Ticks -->
+    <line x1="220" y1="95" x2="238" y2="108" stroke-width="8" />
+    <line x1="238" y1="192" x2="220" y2="205" stroke-width="8" />
+  </g>
+
+  <!-- 2. Wordmark "LATAM CODE" - High-contrast stylized typography matching upload -->
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- L -->
+    <path d="M320,100 L320,200 L345,200" />
+    
+    <!-- A (First) -->
+    <path d="M359,200 L374,100 L389,200" />
+    <circle cx="374" cy="125" r="4.5" fill="#ffffff" stroke="none" />
+    <line x1="366.5" y1="150" x2="381.5" y2="150" />
+    
+    <!-- T -->
+    <path d="M403,100 L428,100 M415.5,100 L415.5,200" />
+    
+    <!-- A (Second) -->
+    <path d="M442,200 L457,100 L472,200" />
+    <circle cx="457" cy="125" r="4.5" fill="#ffffff" stroke="none" />
+    <line x1="449.5" y1="150" x2="464.5" y2="150" />
+    
+    <!-- M -->
+    <path d="M486,200 L486,100 L503.5,175 L521,100 L521,200" />
+    
+    <!-- C -->
+    <path d="M586,100 L566,100 A10,10 0 0 0 556,110 L556,190 A10,10 0 0 0 566,200 L586,200" />
+    
+    <!-- O -->
+    <path d="M610,100 L620,100 A10,10 0 0 1 630,110 L630,190 A10,10 0 0 1 620,200 L610,200 A10,10 0 0 1 600,190 L600,110 A10,10 0 0 1 610,100 Z" stroke-width="12" />
+    <circle cx="615" cy="150" r="4.5" fill="#ffffff" stroke="none" />
+    
+    <!-- D -->
+    <path d="M644,100 L644,200 L659,200 A10,10 0 0 0 669,190 L669,110 A10,10 0 0 0 659,100 Z" />
+    
+    <!-- E -->
+    <path d="M718,100 L698,100 A10,10 0 0 0 688,110 L688,190 A10,10 0 0 0 698,200 L718,200" />
+    <line x1="688" y1="150" x2="708" y2="150" />
+    <circle cx="718" cy="150" r="4.5" fill="#ffffff" stroke="none" />
+  </g>
+</svg>

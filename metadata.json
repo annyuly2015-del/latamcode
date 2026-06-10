@@ -1,0 +1,6 @@
+{
+  "name": "LATAMCODE",
+  "description": "Software Factory especializada en desarrollo de software a medida para empresas en Latinoamérica. Plataformas empresariales, fintech, sistemas internos y aplicaciones móviles de alta escalabilidad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
